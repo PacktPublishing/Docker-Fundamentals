@@ -1,0 +1,2 @@
+This is file1 from local repo
+-- Added from container

@@ -1,0 +1,28 @@
+version: '2'
+services:
+    db:
+        build:
+            context: ./my
+        image: mymysqlimage
+        container_name: db
+    fpm:
+        build:
+            context: ./fp
+        image: myfpimage
+        container_name: fpm
+        volumes:
+            - "/Users/sree/PacktDemo/S9/S9.4.1/html:/usr/share/nginx/html"
+        links:
+            - db
+    web:
+        build:
+            context: ./ng
+        image: myngimage
+        container_name: web
+        ports: 
+            - "7080:80"
+        volumes:
+            - "/Users/sree/PacktDemo/S9/S9.4.1/html:/usr/share/nginx/html:ro"
+        links:
+            - db
+            - fpm
