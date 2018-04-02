@@ -8,16 +8,15 @@ This course aims at helping the user understand and start using Docker.The cours
 <H2>What You Will Learn</H2>
 <DIV class=book-info-will-learn-text>
 <UL>
-<LI>Explore the Docker commands to use for your application 
-<LI>Build Container images with the docker command line 
-<LI>Explore the Dockerfile and docker build 
-<LI>Tag and run your first Docker image 
-<LI>Customize the dockerfile in your .net application 
-<LI>Add your database and link the containers 
-<LI>Write a build script to make your .NET core application data-driven and robust 
-<LI>Debug images into a container using Visual Studio 
-<LI>Use the kops tool to create a Kubernetes cluster in AWS 
-<LI>Deploy an image with kubectl in your application </LI></UL></DIV>
+<LI> Install Docker on your computer
+<LI> Identify the different components of the Docker architecture
+<LI> Learn about Docker Images and the Docker Registry (best practices and automated builds)
+<LI>Learn about Docker containers—their advantages and uses, and how to manage them 
+<LI>Customize Docker images using Dockerfile 
+<LI>Run a web application in Docker
+<LI> Deploy applications within a container
+<LI>Understand Docker files
+<LI>Run a web app in Docker  </LI></UL></DIV>
 
 ## Instructions and Navigation
 ### Assumed Knowledge
